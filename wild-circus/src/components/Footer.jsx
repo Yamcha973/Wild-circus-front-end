@@ -1,19 +1,19 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
 import Facebook from '../pictures/facebook-app-symbol.svg';
-import Instagram from '../pictures/images/instagram-logo.svg';
-import Twitter from '../../pictures/images/twitter-black-shape.svg';
+import Instagram from '../pictures/instagram-logo.svg';
+import Twitter from '../pictures/twitter-black-shape.svg';
 
 function Footer() {
   return (
     <Container maxWidth className="bloc">
-      <div className=" ">
+      <div className="container">
         <div className="logo-rs ">
           <a
             className="logo"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.facebook.com/jessmnds.swagga"
+            href="https://www.facebook.com/jessmnds.swagga/"
           >
             <img
               className="logo"

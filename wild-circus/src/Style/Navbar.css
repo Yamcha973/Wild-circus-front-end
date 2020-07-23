@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     color: #7D80DA;
     margin: 2%;
     margin-right: 8%;
@@ -28,3 +28,13 @@ button {
       margin-top: 1%;
       margin-right: 2%;
   }
+  .burgerButton{
+    display: none;
+}
+/*Responsive*/
+/* @media screen and (max-width: 768px) {
+  .burgerButton{
+      display: block;
+      width: 50px;
+  }
+} */ 

@@ -1,0 +1,138 @@
+.email {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .label {
+    font-size: 1.3em;
+  }
+  .butNom {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .butEmail {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .butPrenom {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .But {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  .Button {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .nom {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  .prenom {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  
+  .but {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  
+  .button {
+    width: 20%;
+    background-color: #7D80DA;
+    color: white;
+    font-weight: 500;
+    padding: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    display: block;
+    margin: auto;
+  }
+  
+  .titleContact {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  
+  .general {
+    width: 100%;
+  }
+  
+  .border {
+    border: 2px solid red;
+  }
+  
+  @media screen and (max-width: 768px) {
+  
+    .button {
+      margin-top: 3%;
+      width: 60%;
+    }
+    .butNom {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .butEmail {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .butPrenom {
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .But {
+      width: 90%;
+    }
+    .Button {
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    }
+  
+  
