@@ -1,10 +1,5 @@
 import React from 'react';
 import { Link } from '@material-ui/core';
-// import Home from './Home';
-// import Performance from './Performance';
-import About from './About';
-import Contact from './Contact';
-import Ticket from './Ticket';
 import styled from 'styled-components';
 
 const Ul = styled.ul`
@@ -48,16 +43,23 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
     return (
         <Ul open={open}>
-            <Link to="/"/><button>Home</button>
-            <Link to="/performance">
-                <button>Performances</button>
-                </Link>
-            <button onClick={About}>About Us</button>
-            <button onClick={Contact}>Contact Us</button>
-            <button onClick={Ticket}>Book a ticket</button>
-
+            <button to="/" renderAs={Link}>
+            Home
+            </button>
+                <button to="/performance" renderAs={Link}>
+                  Performances
+                  </button>
+            <button to="/about" renderAs={Link}>
+              About Us
+              </button>
+            <button to="/contact" renderAs={Link}>
+              Contact Us
+              </button>
+            <button to="/ticket" renderAs={Link}>
+              Book a ticket
+              </button>
         </Ul>
     )
-}
+};
 
 export default RightNav;
