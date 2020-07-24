@@ -1,0 +1,27 @@
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.container {
+    display: flex;
+    align-items: stretch;
+    margin: 2%;
+    padding: 2%;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+/*Responsive*/
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .block {
+        padding: 3%;
+    }
+}
