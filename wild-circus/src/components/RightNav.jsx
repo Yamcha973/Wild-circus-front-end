@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 const Ul = styled.ul`
@@ -43,21 +43,21 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
     return (
         <Ul open={open}>
-            <button to="/" renderAs={Link}>
-            Home
-            </button>
-                <button to="/performance" renderAs={Link}>
-                  Performances
-                  </button>
-            <button to="/about" renderAs={Link}>
-              About Us
-              </button>
-            <button to="/contact" renderAs={Link}>
-              Contact Us
-              </button>
-            <button to="/ticket" renderAs={Link}>
-              Book a ticket
-              </button>
+            <Link to="/">
+                  <button>Home</button>
+                  </Link>
+                <Link to="/performance">
+                  <button>Performance</button>
+                  </Link>
+                  <Link to="/about">
+                  <button>About us</button>
+                  </Link>
+                  <Link to="/contact">
+                  <button>Contact us</button>
+                  </Link>
+                  <Link to="/ticket">
+                  <button>Book a ticket</button>
+                  </Link>
         </Ul>
     )
 };
