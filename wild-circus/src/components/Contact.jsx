@@ -14,28 +14,21 @@ class Contact extends Component {
       Prenom: '',
       Email: '',
       Comment: '',
-      isSelect: false,
       redirect: false,
     };
   }
 
 
   handleChange = (event) => {
-    const { isSelect } = this.state;
-    if (event.target.id === 'mention') {
-      this.setState({ isSelect: !isSelect });
-    } else {
       const { name, value } = event.target;
       this.setState({ [name]: value });
-    }
   };
 
   submitContact = () => {
     const {
-      Nom, Prenom, Email, Comment, isSelect,
+      Nom, Prenom, Email, Comment,
     } = this.state;
-     if (isSelect === false) {
-    } else if (Nom === '' || Prenom === '' || Email === '') {
+    if (Nom === '' || Prenom === '' || Email === '') {
       alert('Vous devez remplir tout les champs');
     } else {
       axios
